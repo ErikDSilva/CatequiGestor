@@ -11,7 +11,17 @@ import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 
 import joseph.catechesis.CatequiGestor.models.catechizing.Catechizing;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
 
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
 @Entity
 @Table(name = "catechumensAttendance")
 public class CatechumensAttendance {
